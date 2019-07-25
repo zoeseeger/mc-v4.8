@@ -1,0 +1,407 @@
+
+[inp:fishlink_cmd: Shell link to machine ]
+0=sh://
+
+[input-timo-vfs]
+0=60
+
+[input-passwd]
+0=anonymous@
+
+[input-timeout]
+0=900
+
+[input-ftp-proxy]
+0=gate
+
+[input-lbl]
+0=/short/k96/apps/tmp/gamess
+1=/short/k96/apps/gamess
+2=/short/k96/apps
+
+[input-pth]
+0=/short/k96/apps/tmp/gamess
+1=/home/565
+2=/short/k96/apps
+
+[replace]
+0=
+
+[mc.shared.search]
+0=mike
+
+[user-fmt-input]
+0=half type name | size | perm
+
+[mini-input]
+0=half type name | size | perm
+
+[inpmc.fm.menu.exec.parameter]
+0=
+
+[inpmc.hotlist.add]
+0=/short/k96/zls565/2
+1=/short/k96/zls565/2/c1mim
+2=/short/k96/zls565/2/c1mpyr
+3=/short/k96/zls565/test-scs
+4=/short/k96/zls565
+5=/short/k96/zls565/scripts
+6=/short/k96/zls565/test-scs/1ip-c1mim-bf4/singlepoint/J-p1
+7=/short/k96/zls565/rksource
+8=Rika Gamess:/short/k96/apps
+9=Home:/short/k96/zls565
+10=Structures:/short/k96/zls565/2
+11=Testing Rika's SCS:/short/k96/zls565/gamess-scs/test-rika-src
+12=Print Statements:/short/k96/zls565/gamess-scs/test-print
+13=Scripts:/short/k96/zls565/scripts
+14=/short/k96/zls565/gamess-scs
+15=Gamess Modification:/short/k96/zls565/gamess-scs
+16=Test print:/short/k96/zls565/gamess-scs/test-priint
+17=/short/k96/zls565/2/1.scs/im/cl/4im/p8
+18=/short/k96/zls565/2/HF
+19=Cutoffs
+20=Database
+21=DIST
+22=
+23=Dist-ions /short/k96/zls565/2/1.scs/im/bf4/1im/p4/spec/test2
+24=MD:/short/k96/zls565/md
+25=Functions: /short/k96/zls565/scripts/functions
+26=/short/k96/zls565/scripts/qcp
+27=Apps, qcp: /short/k96/apps
+
+[:select_cmd: Select ]
+0=
+1=+
+2=\s'\\n'
+
+[inpmc.fm.mkdir]
+0=.
+1=pull_geometry.py
+2=c3mim-bf4-p5.xyz
+3=p1
+4=c4mim-cl-p1.xyz
+5=c4mim-cl-p3.xyz
+6=c1mpyr-bf4-p4.xyz
+7=o2
+8=c3mpyr-cl-p3.xyz
+9=bf4
+10=cl
+11=p5
+12=pre-scs
+13=p2
+14=p3
+15=p4
+16=p55
+17=opt-2ip-c2mpyr-bf4.tsk
+18=p7
+19=p9
+20=p8
+21=orig
+22=new-gamess
+23=c1mimbf4-p1.dat
+24=qcpp.tsk
+25=c1mpyr-bf4-p4_eGeom.xyz
+26=cation1.log
+27=cluster.log
+28=cation2.log
+29=c3mim-bf4-p9.1_eGeom.xyz
+30=..
+31=anion2.log
+32=anion1.log
+33=cation1
+34=c4mim-bf4-p9.tsk
+35=cp_cation2_3.jo.e2263042
+36=psi.clean
+37=cp_cation1G_5.job
+38=cp_cation1G_5.j.e2263112
+39=cp_cation2_3.jo.e2263145
+40=cp_molecule_0.job
+41=t4
+42=water.job
+
+[inpmc.ext.parameter]
+0=
+
+[input-1]
+0=/short/k96/zls565/compare-scs-sapt
+1=/short/k96/zls565/2/1.scs/im/bf4/2im/p4/spec/water2.inp
+2=/short/k96/zls565/2/1.scs/im/bf4/2im/p4/spec/water.job
+3=/short/k96/apps/qcp_V1/notConv
+4=/short/k96/zls565/amber-rad/sub3/il/reactant/unknown/sub3-a3d3e2f3-il3.log
+
+[input-2]
+0=/short/k96/zls565/compare-scs-sapt
+1=tart
+2=/short/k96/zls565/md/gamess/water.job
+3=tr
+4=ub
+
+[input]
+0=
+
+[cmdline]
+0=cp ts.template spec
+1=cp *template unkn*
+2=cp ts-like-sm4_unknown.xyz rerun 
+3=cp ts-like-sm4_unknown.xyz rerun
+4=cp ts.template rerun 
+5=QCP
+6=vim test.py
+7=chmod +x test.py 
+8=nano test.py 
+9=test.py 
+10=python3
+11=cp ts.template rerun
+12=c-sm-il_unknown.xyz 
+13=cp template rerun
+14=del
+15=junk ./sub3-ts-gas.xyz 
+16=mv sub3-ts-gas.xyz ..
+17=mkdir .Trash
+18=junk c-sm-ethanol.xyz c-sm-gas.xyz c-sm-il.xyz c-ts-benz.xyz 
+19=junk c-sm-ethanol.xyz c-sm-ethanol.xyz c-sm-gas.xyz c-sm-il.xyz 
+20=mv * ..
+21=mv qcp_job_log.txt qcp_job_log_save.txt 
+22=mv qcp_sub.txt qcp_sub_save.txt 
+23=cp qcp_sub_save.txt qcp_sub.txt 
+24=mv qcp_sub_save.txt qcp_sub.txt 
+25=nqstat
+26=./nstep1.py 
+27=cd /short/k96/zls565/md/gamess/water-dimer
+28=./gmd0.py 
+29=logout
+30=grep -rn 'All'
+31=qcp
+32=cst try 
+33=mkdir meth1
+34=mv cp2k meth1 
+35=mkdir meth2
+36=cp2k single_point 
+37=cp2k single_point > out
+38=mkdie gms
+39=mkdir gms
+40=mkdir gms cp2k
+41=mv PROJECT-RESTART.wfn out mv single_point cp2k 
+42=mv cluster.inp meth.inp
+43=rungms meth.inp > out
+44=module load gamess
+45=PWD
+46=pwd
+47=wq
+48=mv meth.job 
+49=mv anion1.job meth.job 
+50=q
+51=:q
+52=./qcp
+53=cd ~
+54=exit
+55=cd
+56=sed 's/.chk//' sub3-ts-benz.chk 
+57=rename s/sub3/hello/ sub3-ts-benz.chk 
+58=cat fmo.template 
+59=
+
+[Dir Hist New Left Panel]
+0=/short/k96/zls565/md/gamess/z_il
+1=/short/k96/zls565/md/gamess/z_il/c1mim-bf4/gms_md_1step/step00000
+2=/short/k96/zls565/md/gamess/z_il/c1mim-bf4/gms_md_1step/step00001
+3=/short/k96/zls565/md/gamess/z_il/c1mim-bf4/gms_md_1step
+4=/short/k96/zls565/md/gamess/z_il/c1mim-bf4
+5=/short/k96/zls565/md/gamess/water-dimer
+6=/short/k96/zls565/md
+7=/short/k96/zls565/scripts
+8=/short/k96/zls565/scripts/md-pull
+9=/short/k96/apps/qcp_V1
+10=/short/k96
+11=/short/k96/exi501/2ips/b3lyp
+12=/short/k96/exi501/2ips/blyp
+13=/short/k96/exi501/2ips/im
+14=/short/k96/exi501/2ips/pbe/im
+15=/short/k96/exi501/2ips/pbe
+16=/short/k96/exi501/2ips
+17=/short/k96/exi501/chm3911/prac7
+18=/short/k96/exi501/chm3911/prac8
+19=/short/k96/exi501/chm3911/prac9
+20=/short/k96/exi501/chm3911/tutorial
+21=/short/k96/exi501/chm3911
+22=/short/k96/exi501/co2-fmo
+23=/short/k96/exi501/cp-study
+24=/short/k96/exi501/daniel
+25=/short/k96/exi501/david
+26=/short/k96/exi501
+27=/short/k96/zls565/2pat
+28=/short/k96/zls565/amber-rad/sub2
+29=/short/k96/zls565/amber-rad
+30=/short/k96/zls565/pyr/bf4/1
+31=/short/k96/zls565/pyr/bf4/2
+32=/short/k96/zls565/pyr/bf4
+33=/short/k96/zls565/pyr
+34=/short/k96/zls565/test/fmo
+35=/short/k96/zls565/test/spec
+36=/short/k96/zls565/test/katy
+37=/short/k96/zls565/test
+38=/short/k96/zls565
+39=/short/k96/zls565/z_old
+40=/short/k96/zls565/z_old/2
+41=/short/k96/zls565/z_old/2/HF/z4ip-from-Jason
+42=/short/k96/zls565/z_old/2/HF
+43=/short/k96/zls565/z_old/2/HF/im
+44=/short/k96/zls565/z_old/2/HF/im/bf4
+45=/short/k96/zls565/z_old/2/HF/im/bf4/1im
+46=/short/k96/zls565/z_old/2/HF/im/bf4/1im/p4
+47=/short/k96/zls565/z_old/2/HF/im/bf4/1im/p4/cluster
+48=/short/k96/zls565/z_old/2/HF/im/bf4/1im/p4/cluster/CCD
+49=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth2
+50=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth1/cp2k
+51=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth1/gms
+52=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth1
+53=/short/k96/zls565/cp2k/cmpare_gms/single-point_1
+54=/short/k96/zls565/cp2k/cmpare_gms/pbe-6-31G
+55=/short/k96/zls565/cp2k/cmpare_gms
+56=/short/k96/zls565/cp2k
+57=/home/565/zls565
+58=/short/k96/apps
+59=/short/k96/apps/qcp_gui
+
+[Dir Hist New Right Panel]
+0=/short/k96/zls565/amber-rad/sub2/il
+1=/short/k96/zls565/amber-rad/sub2
+2=/short/k96/zls565/amber-rad/sub3/il/ts/rerun/rerun/rerun/rerun/spec
+3=/short/k96/zls565/amber-rad/sub3/il/ts/rerun/rerun/rerun/rerun
+4=/short/k96/zls565/amber-rad/sub3/il/ts/rerun/rerun/rerun/spec
+5=/short/k96/zls565/amber-rad/sub3/il/ts/rerun/rerun/rerun
+6=/short/k96/zls565/amber-rad/sub3/il/ts/rerun/rerun
+7=/short/k96/zls565/amber-rad/sub3/il/ts/rerun
+8=/short/k96/zls565/amber-rad/sub3/il/ts
+9=/short/k96/zls565/amber-rad/sub3/il
+10=/short/k96/zls565/amber-rad/sub3
+11=/short/k96/zls565/amber-rad/low_energy_higher_theory/aug-m062x/rerun
+12=/short/k96/zls565/amber-rad/low_energy_higher_theory/aug-m062x
+13=/short/k96/zls565/amber-rad/low_energy_higher_theory/wB97x
+14=/short/k96/zls565/amber-rad/low_energy_higher_theory/xyzs/.Trash
+15=/short/k96/zls565/amber-rad/low_energy_higher_theory/xyzs/.trash
+16=/short/k96/zls565/amber-rad/low_energy_higher_theory/xyzs
+17=/home
+18=/home/565/zls565/.cache
+19=/home/565/zls565/md
+20=/short/k96/zls565/md/gamess/water-dimer
+21=/short/k96/zls565/amber-rad/low_energy_higher_theory
+22=/short/k96/zls565/amber-rad/low_energy_higher_theory/ts-ils/m062x/scftight
+23=/short/k96/zls565/amber-rad/low_energy_higher_theory/sm-ils/aug-m062x
+24=/short/k96/zls565/amber-rad/thermo/se/redo
+25=/short/k96/zls565/amber-rad/thermo/se
+26=/short/k96/zls565/amber-rad/thermo
+27=/short/k96/zls565/tim
+28=/short/k96/zls565/cp2k/pbe-631G
+29=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/cp2k
+30=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth1/cp2k
+31=/short/k96/zls565/cp2k/cmpare_gms
+32=/short/k96/zls565/cp2k
+33=/short/k96/apps/gamess-srs
+34=/short/k96/zls565/amber-rad
+35=/short/k96/zls565/z_old/2/HF/im/bf4/1im/p4/anion1/CCD
+36=/short/k96/zls565/z_old/2/HF/im/bf4/1im/p4/anion1
+37=/short/k96/zls565/z_old/2/HF/im/bf4/1im/p4
+38=/short/k96/zls565/z_old/2/HF/im/bf4/1im
+39=/short/k96/zls565/z_old/2/HF/im/bf4
+40=/short/k96/zls565/z_old/2/HF/im
+41=/short/k96/zls565/z_old/2/HF
+42=/short/k96/zls565/z_old/2
+43=/short/k96/zls565/z_old
+44=/short/k96
+45=/short/k96/apps/gamess16-srs
+46=/short/k96/apps
+47=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth1/gms
+48=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth1
+49=/short/k96/zls565/cp2k/cmpare_gms/single-point_1
+50=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth2/cp2k
+51=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth2
+52=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth2/gms
+53=/home/565
+54=/short/k96/zls565
+55=/short/k96/zls565/scripts
+56=/short/k96/zls565/scripts/qcp_other
+57=/short/k96/zls565/scripts/qcp_other/2.inp_job_test
+58=/short/k96/zls565/scripts/qcp_other/2.inp_job_test/template
+59=/home/565/zls565
+
+[:unselect_cmd: Unselect ]
+0=C\\
+1=r 
+2=--======
+3=]
+4=\\
+5=19.921273014
+6=o
+7=
+8=n
+9=2562.122362    1.0168525    -2564.268521
+10=-designer-plugindir /short/k96/apps/python-packages/
+11=G
+12=f
+
+[input-def]
+0=
+1=*
+
+[input2]
+0=/short/k96/zls565/amber-rad/low_energy_higher_theory/ts-ils/wB97x/
+1=/short/k96/zls565/amber-rad/low_energy_higher_theory/sm-ils/
+2=/short/k96/zls565/amber-rad/low_energy_higher_theory/sm-ils/sub2-sm-il.xyz
+3=/short/k96/zls565/amber-rad/low_energy_higher_theory/sm-ils/sub3-sm-il.xyz
+4=/short/k96/zls565/amber-rad/low_energy_higher_theory/sm-ils/wB97x/
+5=/short/k96/zls565/amber-rad/low_energy_higher_theory/sm-ils/aug-m062x/
+6=/short/k96/zls565/amber-rad/low_energy_higher_theory/xyzs/
+7=/short/k96/zls565/amber-rad/logs/se-ts-benz.log
+8=/short/k96/zls565/amber-rad/logs/se-sm-il.log
+9=/short/k96/zls565/amber-rad/logs/sub2-sm-gas.log
+10=/short/k96/zls565/amber-rad/logs/sub2-ts-gas.log
+11=/short/k96/zls565/amber-rad/logs/sub2-ts-benz.log
+12=/short/k96/zls565/amber-rad/logs/sub2-ts-il-spec.log
+13=/short/k96/zls565/amber-rad/logs/
+14=/short/k96/zls565/amber-rad/logs/sub3/sub3-ts-gas.log
+15=/short/k96/zls565/amber-rad/logs/sub3/sub3-ts-benz.log
+16=/short/k96/zls565/amber-rad/logs/sub3/
+17=/short/k96/zls565/amber-rad/logs/sub3/sub3-ts-il-spec.log
+18=/short/k96/zls565/amber-rad/logs/sub3/sub3-ts-il.log
+19=/short/k96/zls565/amber-rad/logs/se/se-ts-il-spec.log
+20=/short/k96/zls565/amber-rad/logs/se/se-ts-il.log
+21=/short/k96/zls565/amber-rad/thermo/sub2/
+22=/short/k96/zls565/amber-rad/thermo/sub3/
+23=/short/k96/zls565/amber-rad/thermo/se/
+24=/home/565/zls565/
+25=/short/k96/zls565/2pat/16ips/
+26=/short/k96/zls565/2pat/16ips/b3lyp-d3-accd/
+27=/short/k96/zls565/2pat/16ips/b3lyp-d3-acct/
+28=/short/k96/zls565/2pat/16ips/fmo2-ccd/
+29=\\
+30=/short/k96/zls565/2pat/16ips/m062x-acct/
+31=/short/k96/zls565/2pat/16ips/m062x-cct/
+32=/short/k96/zls565/2pat/8ips/
+33=/short/k96/zls565/dftb/c1mim-cl-8ip-2/fmo3/srs/
+34=/short/k96/zls565/dftb/c1mim-cl-8ip-5/fmo3/srs/
+35=/short/k96/zls565/dftb/original/
+36=/short/k96/zls565/amber-rad/thermo/se/redo/
+37=/short/k96/zls565/2pat/c1mim-bf4-p4/b3lyp-acct/run10/ions/
+38=/short/k96/zls565/2pat/c1mim-bf4-p4/m062x-acct/
+39=/short/k96/zls565/2pat/c1mim-bf4-p9/m062x-acct/
+40=/short/k96/zls565/amber-rad/low_energy_higher_theory/se-qz/
+41=/short/k96/zls565/md/gamess/z_il/c1mim-bf4/my_md2/
+42=/short/k96/zls565/test/katy/
+43=/short/k96/zls565/md/gamess/z_il/c1mim-bf4/test_restart/
+44=/short/k96/zls565/md/gamess/z_il/c1mim-bf4/test_restart/md_sub/step_0080/md_sub/step_0296/
+45=/short/k96/zls565/eunice/
+46=/short/k96/esg565/
+47=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth2/
+48=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth1/gms/
+49=/short/k96/zls565/cp2k/cmpare_gms/single-point_1/meth2/gms/
+50=/short/k96/zls565/amber-rad/low_energy_higher_theory/aVTZ/
+51=/short/k96/zls565/md/gamess/z_il/c1mim-bf4/my_md/md_sub/step_0080/
+52=/short/k96/zls565/md/mtd/
+53=/short/k96/apps/
+54=/short/k96/zls565/md/mtd/mtd/h2-1A/
+55=/short/k96/zls565/
+56=/short/k96/zls565/2pat/c1mim-bf4-p9/m062x-acct/walltime4/
+57=/short/k96/zls565/2pat/4ips/cct/wb97xd/
+58=/short/k96/zls565/md/test_rsrt/
+59=/short/k96/apps/qcp_gui/

@@ -1,0 +1,8 @@
+ENTRY "Home:/short/k96/zls565" URL "/short/k96/zls565"
+ENTRY "Apps, qcp: /short/k96/apps" URL "/short/k96/apps"
+ENTRY "MD:/short/k96/zls565/md" URL "/short/k96/zls565/md"
+ENTRY "Scripts:/short/k96/zls565/scripts" URL "/short/k96/zls565/scripts"
+ENTRY "Dist-ions /short/k96/zls565/2/1.scs/im/bf4/1im/p4/spec/test2" URL "/short/k96/zls565/2/1.scs/im/bf4/1im/p4/spec/test2"
+ENTRY "Functions: /short/k96/zls565/scripts/functions" URL "/short/k96/zls565/scripts/functions"
+ENTRY "Cutoffs" URL "/short/k96/zls565/peter-cutoff-clusters"
+ENTRY "Database" URL "/short/k96/zls565/scripts/database"
