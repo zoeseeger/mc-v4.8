@@ -10,3 +10,4 @@ Make sure you do not have a midnight commander process running.
     
     mkdir -p ~/.local/share/mc/skins
     cp ~/.config/mc/skins/*ini ~/.local/share/mc/skins/
+    mc
